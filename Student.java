@@ -2,8 +2,7 @@ class Student {
 	String index;
 	String firstName;
 	String lastName;
-	List<Integer> labPoints;
-
+	    List<Integer> labPoints = new ArrayList<>();
 
 	//TODO constructor
 
@@ -16,4 +15,5 @@ class Student {
 	public boolean hasSignature() {
 		//TODO
 	}
+
 }
